@@ -6,3 +6,7 @@ tags = {
 tag-key = "tag-value"
 }
 }
+resource "aws_s3_bucket" "sd" {
+bucket = "juh-chopati"
+acl = "public"
+}
